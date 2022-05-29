@@ -1,0 +1,53 @@
+body {
+}
+
+.pe-auto {
+    cursor: pointer;
+}
+
+.card-holder {
+    max-width: 700px;
+}
+
+.card-body {
+    padding: 0.3rem;
+}
+
+.avatar {
+    width: 20px;
+}
+
+.row {
+    padding-bottom: 0.2rem;
+}
+
+.vote {
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+    .vote:hover {
+        transition-duration: 0.1s;
+        color: blue;
+    }
+
+    .vote:active {
+        color: Highlight;
+    }
+
+
+.list-move,
+.list-enter-active,
+.list-leave-active {
+    transition: all 0.75s ease;
+}
+
+.list-enter-from,
+.list-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.list-leave-active {
+    position: absolute;
+}

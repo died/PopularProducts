@@ -1,0 +1,13 @@
+{
+  "name": "popular-products",
+  "version": "0.0.0",
+  "description": "PopularProducts",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  }
+}
