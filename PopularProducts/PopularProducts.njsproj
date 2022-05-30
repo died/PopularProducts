@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0abe61b-5823-45bf-ab87-711bd5dbeab1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>src\app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -28,49 +28,51 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.js" />
-    <Content Include="index.html">
+    <Content Include="src\app.js" />
+    <Content Include="src\index.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="seed.js">
+    <Content Include="src\seed.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="static\css\index.css">
+    <Content Include="src\static\css\index.css">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="static\favicon.ico" />
-    <Content Include="static\images\avatars\daniel.jpg" />
-    <Content Include="static\images\avatars\elliot.jpg" />
-    <Content Include="static\images\avatars\elyse.png" />
-    <Content Include="static\images\avatars\helen.jpg" />
-    <Content Include="static\images\avatars\jenny.jpg" />
-    <Content Include="static\images\avatars\justen.jpg" />
-    <Content Include="static\images\avatars\kristy.png" />
-    <Content Include="static\images\avatars\matthew.png" />
-    <Content Include="static\images\avatars\molly.png" />
-    <Content Include="static\images\avatars\steve.jpg" />
-    <Content Include="static\images\avatars\stevie.jpg" />
-    <Content Include="static\images\avatars\veronika.jpg" />
-    <Content Include="static\images\products\image-aqua.png" />
-    <Content Include="static\images\products\image-rose.png" />
-    <Content Include="static\images\products\image-steel.png" />
-    <Content Include="static\images\products\image-yellow.png" />
-    <Content Include="static\images\products\image.png" />
-    <Content Include="static\images\ui\arrow.png" />
-    <Content Include="static\js\index.js">
+    <Content Include="src\static\favicon.ico" />
+    <Content Include="src\static\images\avatars\daniel.jpg" />
+    <Content Include="src\static\images\avatars\elliot.jpg" />
+    <Content Include="src\static\images\avatars\elyse.png" />
+    <Content Include="src\static\images\avatars\helen.jpg" />
+    <Content Include="src\static\images\avatars\jenny.jpg" />
+    <Content Include="src\static\images\avatars\justen.jpg" />
+    <Content Include="src\static\images\avatars\kristy.png" />
+    <Content Include="src\static\images\avatars\matthew.png" />
+    <Content Include="src\static\images\avatars\molly.png" />
+    <Content Include="src\static\images\avatars\steve.jpg" />
+    <Content Include="src\static\images\avatars\stevie.jpg" />
+    <Content Include="src\static\images\avatars\veronika.jpg" />
+    <Content Include="src\static\images\products\image-aqua.png" />
+    <Content Include="src\static\images\products\image-rose.png" />
+    <Content Include="src\static\images\products\image-steel.png" />
+    <Content Include="src\static\images\products\image-yellow.png" />
+    <Content Include="src\static\images\products\image.png" />
+    <Content Include="src\static\images\ui\arrow.png" />
+    <Content Include="src\static\js\index.js">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="static\" />
-    <Folder Include="static\images\" />
-    <Folder Include="static\images\avatars\" />
-    <Folder Include="static\images\products\" />
-    <Folder Include="static\images\ui\" />
-    <Folder Include="static\css\" />
-    <Folder Include="static\js\" />
+    <Folder Include="test\" />
+    <Folder Include="src\" />
+    <Folder Include="src\static\" />
+    <Folder Include="src\static\images\" />
+    <Folder Include="src\static\images\avatars\" />
+    <Folder Include="src\static\images\products\" />
+    <Folder Include="src\static\images\ui\" />
+    <Folder Include="src\static\css\" />
+    <Folder Include="src\static\js\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>
