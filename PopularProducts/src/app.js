@@ -32,3 +32,5 @@ app.post('/api/vote', jsonParser, (req, res) => {
 server.listen(port, () => {
     console.log('server listening on *:' + port);
 });
+
+module.exports = server;

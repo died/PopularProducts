@@ -11,9 +11,9 @@
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "mocha": "latest"
+    "mocha": "latest",
+    "chai": "latest",
+    "chai-http": "latest"
   },
   "scripts": {
     "test": "mocha test/",
